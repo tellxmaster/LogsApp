@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro de Logs</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de Logs</h1>
+    <form action="/registrar" method="post">
+        <label>
+            Tipo de Log:
+            <select name="tipo">
+                <option value="Info">Info</option>
+                <option value="Error">Error</option>
+                <option value="Warning">Warning</option>
+            </select>
+        </label>
+        <br>
+        <input type="submit" value="Registrar">
+    </form>
+    </div>
+</body>
+</html>
